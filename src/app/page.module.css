@@ -18,28 +18,33 @@
 }
 
 .desc {
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Poppins';
+  color: #D8CBFF;
   font-weight: 100;
-}
-
-.button {
-  padding: 10px 16px;
-  cursor: pointer;
-  background-color: #E43397;
-  border: none;
-  border-radius: 4px;
-  color: white;
-  width: max-content;
   font-weight: 500;
 }
 
+.button {
+  padding: 15px 13px;
+  cursor: pointer;
+  background-color: #E43397;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 15px;
+  width: max-content;
+  font-weight: 500;
+}
+.button:hover {
+  background-color: #e4339794;
+}
 .arrow {
   margin-left: 20px;
 }
 
 .img {
-  width: 100%;
+  max-width: 100%;
   height: 500px;
   object-fit: cover;
 }
