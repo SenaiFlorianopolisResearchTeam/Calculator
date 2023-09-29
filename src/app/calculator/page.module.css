@@ -66,28 +66,31 @@
     border-radius: 8px;
     background-color: #34008C70;
     border-style: hidden;
+    font-size: 20px;
     padding-left: 16px;
-    font-size: 16px;
     color: #CB88FF;
 }
-.inputSelect{
+.inputSelect {
     width: 400px;
     height: 60px;
     border-radius: 8px;
     background-color: #34008C70;
     border-style: hidden;
     padding-left: 16px;
-    font-size: 16px;
+    font-size: 20px;
     color: #CB88FF;
 }
-.resultInput{
+.resultInput {
+    font-size: 20px;
     margin-top: 30px;
 }
-.option{
+.option {
     background-color: #120234;
+    font-size: 18px;
     padding: 5px;
+    color: #ffffffc9;
 }
-.option:checked{
+.option:checked {
     background-color: #451892;
     padding: 5px;
 }

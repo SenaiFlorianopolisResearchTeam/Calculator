@@ -276,7 +276,7 @@ export default function Calculator() {
           <h1 className={styles.title}>Resultados</h1>
           {selectedModel === "griffiths" && (
             <div className={styles.resultInput}>
-              <p className={styles.item2Text}>L10</p>
+              <p className={styles.item2Text}>L10 (dB)</p>
               <input
                 type="number"
                 name="l10"
@@ -287,7 +287,7 @@ export default function Calculator() {
             </div>
           )}
           <div className={styles.resultInput}>
-            <p className={styles.item2Text}>L50</p>
+            <p className={styles.item2Text}>L50 (dB)</p>
             <input
               type="number"
               name="l50"
@@ -298,7 +298,7 @@ export default function Calculator() {
           </div>
           {selectedModel === "griffiths" && (
             <div className={styles.resultInput}>
-              <p className={styles.item2Text}>L90</p>
+              <p className={styles.item2Text}>L90 (dB)</p>
               <input
                 type="number"
                 name="l90"
@@ -313,7 +313,7 @@ export default function Calculator() {
             (selectedModel === "griffiths" ||
             (selectedModel === "cstb" && (
               <div className={styles.resultInput}>
-                <p className={styles.item2Text}>Leq</p>
+                <p className={styles.item2Text}>Leq (dB)</p>
                 <input
                   type="number"
                   name="leq"
