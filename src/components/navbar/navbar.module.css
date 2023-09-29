@@ -25,3 +25,6 @@
   /* color: #D8CBFF; */
   font-family: 'Poppins'; 
 }
+.link:hover{
+  color: #FFBCF1;
+}

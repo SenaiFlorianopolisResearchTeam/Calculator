@@ -1,7 +1,32 @@
+:root {
+  --primary: #34008C;
+  --secondary: #7900FF;
+  --tertiary: #8665CD;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  margin: 0;  
+  scrollbar-width: thin;
+  scrollbar-color: var(--secondary) var(--primary);
+}
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--primary);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--secondary);
+  border-radius: 14px;
+  border: 3px solid var(--primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--tertiary);
 }
 
 html,

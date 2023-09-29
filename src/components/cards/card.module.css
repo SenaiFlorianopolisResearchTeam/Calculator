@@ -6,4 +6,34 @@ min-height: 100%;
 display: grid;
 grid-template-columns: repeat(2, 1fr);
 grid-template-rows: repeat(4, 1fr);
+max-width: 100%;
+min-height: 500px;
+margin-top: 60px;
+gap: 1rem;
+}
+
+.card{
+max-width: 587px;
+max-height: 90px;
+border-radius: 15px;
+display: flex;
+justify-content: left;
+align-items: center;
+background: rgba(41, 22, 99, 0.50);
+}
+.card:hover{
+background: rgb(41, 22, 99);
+cursor: pointer;
+}
+.title{
+color: #FBF5FF;
+margin-left: 25px;
+font-size: 15;
+font-weight: bold;
+}
+.subtitle{
+color: #8665CD;
+margin-left: 25px;
+font-size: 16px;
+font-weight: 500;
 }

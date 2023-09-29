@@ -1,7 +1,6 @@
 'use client'
 
 import React from 'react'
-import Link from 'next/link'
 import styles from './card.module.css'
 import Chapter from './Chapter'; 
 
@@ -58,16 +57,15 @@ const caps = [
 ]
 
 const Card = () => {
-    return (
-        <div className={styles.container}>
-          <div className={styles.caps}>
-            {caps.map((cap) => (
-              <Chapter key={cap.id} title={cap.title} subtitle={cap.subtitle} url={cap.url} />
-            ))}
-          </div>
+  return (
+      <div className={styles.container}>
+        <div className={styles.caps}>
+        {caps.map((cap) => (
+  <Chapter key={cap.id} caps={caps} title={cap.title} subtitle={cap.subtitle} url={cap.url} />
+))}
         </div>
-      );
-  }
-  
+      </div>
+    );
+}
 
 export default Card
