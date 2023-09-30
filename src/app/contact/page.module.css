@@ -6,8 +6,6 @@
 .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  align-items: start;
-  justify-content: center;
   margin-top: 5rem;
   margin-bottom: 8rem;
   align-content: center;
@@ -19,7 +17,7 @@
   max-height: 200px;
 }
 .title{
-  color: rgba(255, 255, 255, 0.884);
+  color: rgba(255, 255, 255, 0.63);
   font-size: 72px;
   text-align: left;
   margin-bottom: 4rem;
