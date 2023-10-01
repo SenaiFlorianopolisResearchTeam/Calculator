@@ -2,12 +2,11 @@ import React from 'react';
 import Link from 'next/link';
 import styles from './card.module.css'
 
-
-const Chapter = ({ caps, title, subtitle, url }) => {
+const Chapter = ({ title, subtitle }) => {
 
   return (
     <div className={styles.card}>
-        <Link href={url}>
+        <Link href={''}>
         <h2 className={styles.title}>{title}</h2>
         <p className={styles.subtitle}>{subtitle}</p>  
         </Link>
