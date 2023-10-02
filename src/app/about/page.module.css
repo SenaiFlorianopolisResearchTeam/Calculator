@@ -1,31 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
-.container {
+.container1 {
   display: flex;
   align-items: center;
-  height: 100vh;
   gap: 100px;
 }
 .container2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: start;
-  height: 100vh;
+  margin-bottom: 10%;
   gap: 100px;
 }
 
-.item {
+.item1 {
   flex: 1;
   display: flex;
   flex-direction: column;
   gap: 44px;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
 .item2 {
   flex: 1;
+  margin-bottom: 20%;
   display: flex;
   flex-direction: column;
   gap: 44px;
+  height: 250px;
   justify-content: center;
   align-items: center;
   padding: 50px 40px;
@@ -36,8 +37,8 @@
   text-align: left;
 }
 .title {
-    color: rgba(255, 255, 255, 0.884);
-    font-size: 72px;
+  color: rgba(255, 255, 255, 0.884);
+  font-size: 72px;
   text-align: right;
 }
 

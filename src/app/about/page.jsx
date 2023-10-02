@@ -7,11 +7,11 @@ import Imagem from "../../../public/lamp.svg";
 const About = () => {
   return (
     <div className={styles.main}>
-      <div className={styles.container}>
-        <div className={styles.item}>
+      <div className={styles.container1}>
+        <div className={styles.item1}>
           <Image src={Imagem} alt="cubos" className={styles.img} />
         </div>
-        <div className={styles.item}>
+        <div className={styles.item1}>
           <h1 className={styles.title}>O que é a Iniciação Científica?</h1>
           <p className={styles.desc}>
             É um projeto organizado pela direção regional. São 10 grupos na

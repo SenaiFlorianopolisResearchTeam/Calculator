@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './page.module.css'
-import Card from '@/components/cards/Card'
+import Card from '@/components/card/Card'
 
 const Library = () => {
   return (

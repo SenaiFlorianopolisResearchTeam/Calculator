@@ -1,6 +1,4 @@
-import React, { Component, useState } from 'react';
 import { View, Text, ScrollView, TextInput, TouchableOpacity } from 'react-native';
-import { LinearGradient } from 'expo-linear-gradient';
 import styles from '../../styles/stylesheet'
 
 // calculator elements for hanc model
