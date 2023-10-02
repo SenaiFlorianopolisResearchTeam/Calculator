@@ -42,5 +42,6 @@
 }
 
 .div a{
-  background-color: #7900FF
+  background-color: #7900FF;
+  border-radius: 5px;
 }
