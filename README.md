@@ -1,8 +1,7 @@
-# Website - Projeto Iniciação Científica 
-### RESUMO
-- Este estudo visa o desenvolvimento de uma plataforma online dedicada à análise dos níveis de ruído rodoviário, utilizando modelos matemáticos e linguagem de programação. Essa plataforma se propõe a ser uma ferramenta eficaz para avaliar e mitigar os efeitos sonoros decorrentes das estradas. A metodologia empregada inclui a integração de dados geoespaciais, informações sobre as características das rodovias, dados de tráfego e fórmulas matemáticas para permitir um cálculo preciso dos níveis de ruído em diversos pontos ao longo das vias. Isso, por sua vez, contribuirá para uma gestão mais precisa do ruído rodoviário. É fundamental destacar a relevância desse problema, já que o ruído rodoviário afeta significativamente o meio ambiente e a qualidade de vida das comunidades adjacentes. Adicionalmente, é importante ressaltar que o combate ao ruído rodoviário é um desafio global que demanda abordagens inovadoras e o uso de novas tecnologias para minimizar seus impactos negativos.
--------------------------------
+# Website - Scientific Initiation Project 
+
 ### SUMMARY
 - This study aims to develop an online platform dedicated to the analysis of road noise levels, using mathematical models and programming language. This platform aims to be an effective tool for evaluating and mitigating noise effects resulting from roads. The methodology used includes the integration of geospatial data, information on highway characteristics, traffic data and mathematical formulas to allow a precise calculation of noise levels at various points along the roads. This, in turn, will contribute to more accurate management of road noise. It is essential to highlight the relevance of this problem, as road noise significantly affects the environment and the quality of life of adjacent communities. Additionally, it is important to highlight that combating road noise is a global challenge that demands innovative approaches and the use of new technologies to minimize its negative impacts.
+-------------------------------
 
 - Site:[ https://ic-acustica.vercel.app/](https://ic-website-2023.vercel.app/)
