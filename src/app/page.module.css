@@ -48,3 +48,30 @@
   height: 500px;
   object-fit: cover;
 }
+.logo-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .container{
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  .title{
+    font-size: 3rem;
+  }
+  .desc{
+    font-size: 15px;
+  }
+  .button{
+  padding: 7px 6px;
+  }
+  .img{
+    display: none;
+  }
+  .logo-mobile {
+    display: block;
+  }
+}

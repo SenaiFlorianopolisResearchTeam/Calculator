@@ -6,5 +6,12 @@
   align-items: center;
   font-family: 'Poppins';
   color: rgba(255, 255, 255, 0.63);
-  justify-content: center
+  text-align: center;
+  justify-content: center,
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    font-size: 12px;
+  }
 }

@@ -2,11 +2,15 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import Imagem from "../../public/foguete.svg"
 import Link from 'next/link';
+import Logo from '../../public/logo.svg'
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.item}>
+     
+      <img src={Logo} className="logo-mobile" style={{ display: 'none' }} />
+      
         <h1 className={styles.title}>
           Iniciação Científica
         </h1>

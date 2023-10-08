@@ -28,3 +28,34 @@
 .link:hover{
   color: #FFBCF1;
 }
+
+
+
+@media screen and (max-width: 800px) {
+  .container{
+    font-size: 12px;
+    gap: 2px;
+  }
+  
+.links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 1rem;
+}
+.link{
+  color: #D8CBFF;
+  background-color: #410077;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.45px;
+  width: 5rem;
+  height: 1.5rem;
+  border-radius: 5px;
+}
+  .logo{
+    display: none;
+  }
+
+}
