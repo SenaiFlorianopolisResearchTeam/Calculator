@@ -1,6 +1,7 @@
 .container {
     margin: 0;
 }
+
 .title {
     height: 80px;
     display: flex;
@@ -11,3 +12,11 @@
     font-size: 45px;
 }
 
+@media screen and (max-width: 800px) {
+    .titleMobile {
+        font-weight: bold;
+        font-size: 2rem;
+        font-family: 'Poppins';
+        color: rgba(255, 255, 255, 0.63);
+    }
+}

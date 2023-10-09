@@ -42,7 +42,7 @@
 }
 
 .title {
-  color: rgba(255, 255, 255, 0.884);
+  color: #ffffffe1;
   font-size: 72px;
   text-align: right;
 }
@@ -100,26 +100,44 @@
 
   .title {
     font-size: 2rem;
-    text-align: left;
+    text-align: center;
+    color: #ffffffb2;
     margin-top: 1rem;
+    margin-bottom: 0.5rem;
 
   }
+
   .titleMain {
     font-size: 3rem;
     text-align: left;
     margin-top: 1rem;
 
   }
-  .item{
-  border-radius: 5px;
-  background: rgba(41, 22, 99, 0.50);
-  padding: 5px 10px;
+
+  .item {
+    border-radius: 5px;
+    background: rgba(41, 22, 99, 0.50);
+    margin: 0.5rem 0rem;
+    padding: 15px 25px;
+    box-shadow: 5px 5px 5px #0000003f;
+
   }
 
   .desc {
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     text-align: left;
-    margin-top: 0.5rem;
+    font-size: 15px;
+  }
+
+  .descItem {
+    font-size: 15px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-family: 'Poppins';
+    color: #D8CBFF;
+    text-align: left;
+    font-weight: 100;
+    font-weight: 500;
   }
 
   .ul {

@@ -36,6 +36,7 @@
     margin-left: 69px;
     margin-bottom: 59px;
 }
+
 .item2 {
 
     width: 500px;
@@ -50,14 +51,16 @@
     margin-bottom: 5px;
     font-size: 18px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);;
+    color: rgba(255, 255, 255, 0.5);
+    ;
 }
 
 .item2Text {
     margin-bottom: 5px;
     font-size: 18px;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);;
+    color: rgba(255, 255, 255, 0.5);
+    ;
 }
 
 .input {
@@ -70,6 +73,7 @@
     padding-left: 16px;
     color: #CB88FF;
 }
+
 .inputSelect {
     width: 400px;
     height: 60px;
@@ -80,21 +84,113 @@
     font-size: 20px;
     color: #CB88FF;
 }
+
 .resultInput {
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 28px;
 }
+
 .option {
     background-color: #120234;
     font-size: 18px;
     padding: 5px;
     color: #ffffffc9;
 }
+
 .option:checked {
     background-color: #451892;
     padding: 5px;
 }
+
 .input:focus {
     outline: none;
     background-color: rgba(7, 0, 18, 0.44);
-  }
+}
+
+@media screen and (max-width: 800px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #451892;
+        font-family: 'Poppins';
+        border-width: 0px;
+        border-style: solid;
+        border-color: #451892;
+        background: linear-gradient(to bottom, rgba(69, 24, 146, 0.44), #120234);
+        border-radius: 8px;
+        gap: 20px; 
+        padding: 2rem;
+    }
+
+    .item1Text {
+        margin-top: 15px;
+        font-size: 15px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .title {
+        font-weight: 800;
+        font-size: 23px;
+        text-align: center;
+        color: #FBF5FF;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .inputSelect {
+        height: 60px;
+        width: 100%;
+        border-radius: 8px;
+        background-color: #34008C70;
+        border-style: hidden;
+        padding-left: 16px;
+        padding: 1rem;
+        font-size: 15px;
+        color: #CB88FF;
+    }
+
+    .resultInputM {
+        font-size: 15px;
+        margin-top: 38px;
+        margin-bottom: 38px;
+    }
+
+    .option {
+        background-color: #120234;
+        font-size: 14px;
+        padding: 5px;
+        color: #ffffffc9;
+    }
+
+    .option:checked {
+        background-color: #451892;
+        padding: 5px;
+    }
+
+    .input:focus {
+        outline: none;
+        background-color: rgba(7, 0, 18, 0.44);
+    }
+
+    .input {
+        width: 100%;
+        height: 40px;
+        border-radius: 8px;
+        background-color: #34008C70;
+        border-style: hidden;
+        font-size: 15px;
+        padding-left: 16px;
+        color: #CB88FF;
+    }
+}

@@ -83,19 +83,19 @@ const About = () => {
 
           <div className={styles.container2}>
             <div className={styles.item}>
-            <h1 className={styles.title}>Missão</h1>
-            <p className={styles.desc}>
-              Incentivar e desenvolver o protagonismo juvenil por meio da pesquisa
-              para promover uma cultura científica e tecnológica.
-            </p>
+              <h1 className={styles.title}>Missão</h1>
+              <p className={styles.descItem}>
+                Incentivar e desenvolver o protagonismo juvenil por meio da pesquisa
+                para promover uma cultura científica e tecnológica.
+              </p>
             </div>
             <div className={styles.item}>
-            <h1 className={styles.title}>Valores</h1>
-            <p className={styles.desc}>
-              Posicionar nacionalmente a Escola SESI como formadora de excelência
-              em perspectivas científicas e tecnológicas em todas as áreas do
-              conhecimento.
-            </p>
+              <h1 className={styles.title}>Valores</h1>
+              <p className={styles.descItem}>
+                Posicionar nacionalmente a Escola SESI como formadora de excelência
+                em perspectivas científicas e tecnológicas em todas as áreas do
+                conhecimento.
+              </p>
             </div>
 
             <h1 className={styles.title}>Organização</h1>
