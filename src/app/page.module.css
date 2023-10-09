@@ -58,12 +58,14 @@
     align-items: center;
     align-content: center;
     justify-content: center;
+    gap: 0px;
+    overflow: hidden;
   }
   .title{
     font-size: 3rem;
   }
   .desc{
-    font-size: 15px;
+    font-size: 13px;
   }
   .button{
   padding: 7px 6px;
@@ -74,4 +76,5 @@
   .logo-mobile {
     display: block;
   }
+
 }
