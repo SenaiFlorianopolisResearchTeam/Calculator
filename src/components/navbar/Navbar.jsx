@@ -77,7 +77,7 @@ const Navbar = () => {
           <div className='nav-mobile'>
             <Button onClick={toggleDrawer('right', true)} color='secondary' >
               <MenuIcon
-                sx={{ fontSize: 33 }}
+                sx={{ fontSize: 33, marginLeft: '100%' }}
               />
             </Button>
 
