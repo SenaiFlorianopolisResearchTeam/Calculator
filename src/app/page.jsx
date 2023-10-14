@@ -36,7 +36,7 @@ export default function Home({ isDesktop, isMobile }) {
           Iniciação Científica
         </h1>
         <p className={styles.desc}>
-          Grupo de Iniciação Científica de Florianópolis, Santa Catarina Buscando soluções sonoras para a sociedade de forma acessível.
+          Grupo de Iniciação Científica de Florianópolis, Santa Catarina, propondo ferramentas para análises em Acústica de forma acessível.
         </p>
         <Link href={'/about'}>
           <button className={styles.button}>Saiba mais <span className={styles.arrow}>▶</span></button>

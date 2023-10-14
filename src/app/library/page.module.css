@@ -6,9 +6,9 @@
     height: 80px;
     display: flex;
     align-items: left;
-    font-family: 'Poppins';
     color: rgba(255, 255, 255, 0.63);
     justify-content: left;
+    font-weight: bold;
     font-size: 45px;
 }
 
@@ -16,7 +16,6 @@
     .titleMobile {
         font-weight: bold;
         font-size: 2rem;
-        font-family: 'Poppins';
         color: rgba(255, 255, 255, 0.63);
     }
 }

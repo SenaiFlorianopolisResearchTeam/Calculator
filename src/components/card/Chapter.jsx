@@ -6,10 +6,10 @@ const Chapter = ({ title, subtitle }) => {
 
   return (
     <div className={styles.card}>
-        <Link href={''}>
+        <div>
         <h2 className={styles.title}>{title}</h2>
         <p className={styles.subtitle}>{subtitle}</p>  
-        </Link>
+        </div>
     </div>
   );
 };
