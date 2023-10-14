@@ -27,17 +27,17 @@ export default function Calculator() {
 
   const [selectedModel, setSelectedModel] = useState("hanc");
   const [modelValues, setModelValues] = useState({
-    param1: "",
-    param2: "",
-    param3: "",
-    param4: "",
+    param1: 0,
+    param2: 0,
+    param3: 0,
+    param4: 0,
   });
 
   const [result, setResult] = useState({
-    l10: "",
-    l50: "",
-    l90: "",
-    leq: "",
+    l10: 0,
+    l50: 0,
+    l90: 0,
+    leq: 0,
   });
 
   const handleModelChange = (event) => {
@@ -45,10 +45,10 @@ export default function Calculator() {
     setSelectedModel(selectedOption);
     // limpar os campos
     setModelValues({
-      param1: "",
-      param2: "",
-      param3: "",
-      param4: "",
+      param1: 0,
+      param2: 0,
+      param3: 0,
+      param4: 0,
     });
   };
 
@@ -204,9 +204,9 @@ export default function Calculator() {
                 </div>
               )}
 
-              {selectedModel !== "fagotti" && selectedModel !== "cstb" && selectedModel !== "bolt" && (
+              {selectedModel !== "fagotti" && selectedModel !== "cstb" && (
                 <div>
-                  <p className={styles.item1Text}>Distância (km)</p>
+                  <p className={styles.item1Text}>Distância entre o ponto de observação e o centro da pista (m)</p>
                   <input
                     type="number"
                     name="param2"
@@ -228,18 +228,7 @@ export default function Calculator() {
                   />
                 </div>
               )}
-              {selectedModel === "bolt" && (
-                <div>
-                  <p className={styles.item1Text}>Distância entre o ponto de observação e o centro da pista (em pés)</p>
-                  <input
-                    type="number"
-                    name="param2"
-                    className={`${styles.input}`}
-                    value={modelValues.param2}
-                    onChange={handleInputChange}
-                  />
-                </div>
-              )}
+          
               {(selectedModel === "galloway") |
                 (selectedModel === "burgess") |
                 (selectedModel === "griffiths") && (
@@ -430,9 +419,9 @@ export default function Calculator() {
                 </div>
               )}
 
-              {selectedModel !== "fagotti" && selectedModel !== "cstb" && selectedModel !== "bolt" && (
+              {selectedModel !== "fagotti" && selectedModel !== "cstb" && (
                 <div>
-                  <p className={styles.item1Text}>Distância (km)</p>
+                  <p className={styles.item1Text}>Distância entre o ponto de observação e o centro da pista (m)</p>
                   <input
                     type="number"
                     name="param2"
@@ -454,18 +443,7 @@ export default function Calculator() {
                   />
                 </div>
               )}
-              {selectedModel === "bolt" && (
-                <div>
-                  <p className={styles.item1Text}>Distância entre o ponto de observação e o centro da pista (em pés)</p>
-                  <input
-                    type="number"
-                    name="param2"
-                    className={`${styles.input}`}
-                    value={modelValues.param2}
-                    onChange={handleInputChange}
-                  />
-                </div>
-              )}
+    
               {(selectedModel === "galloway") |
                 (selectedModel === "burgess") |
                 (selectedModel === "griffiths") && (

@@ -3,7 +3,7 @@ export function calcHanc(modelValues) {
     return (
       68 +
       8.5 * Math.log(parseFloat(modelValues.param1)) -
-      20 * Math.log(parseFloat(modelValues.param2))
+      20 * Math.log(parseFloat(modelValues.param2 * 3.281))  // Conversão de metros para ft
     ).toFixed(2);
   } else {
     return "";
@@ -21,8 +21,9 @@ export function calcJohnson(modelValues) {
       10 *
         Math.log(
           (parseFloat(modelValues.param1) *
-            Math.pow(parseFloat(modelValues.param3), 3)) /
-            parseFloat(modelValues.param2)
+            Math.pow(parseFloat(modelValues.param3 /  1.609 // Conversão de km para milhas
+            ), 3)) /
+            parseFloat(modelValues.param2  * 3.281)
         )
     ).toFixed(2);
   } else {
@@ -42,8 +43,8 @@ export function calcGalloway(modelValues) {
       10 *
         Math.log(
           (parseFloat(modelValues.param1) *
-            Math.pow(parseFloat(modelValues.param3), 2)) /
-            parseFloat(modelValues.param2)
+            Math.pow(parseFloat(modelValues.param3 / 1.609), 2)) /
+            parseFloat(modelValues.param2  * 3.281)
         ) +
       0.4 * (parseFloat(modelValues.param4) / 100)
     ).toFixed(2);
@@ -61,8 +62,8 @@ export function calcBurgess(modelValues) {
     return (
       55.5 +
       10.2 * Math.log(parseFloat(modelValues.param1)) +
-      (0.3 * parseFloat(modelValues.param3)) / 100 -
-      19.3 * Math.log(parseFloat(modelValues.param2))
+      (0.3 * parseFloat(modelValues.param3 / 1.609)) / 100 -
+      19.3 * Math.log(parseFloat(modelValues.param2  * 3.281))
     ).toFixed(2);
   } else {
     return "";
@@ -75,18 +76,18 @@ export function calcGriffiths(modelValues) {
     const l50 =
       61 +
       8.4 * Math.log(parseFloat(modelValues.param1)) +
-      (0.15 * parseFloat(modelValues.param3)) / 100 -
-      11.5 * Math.log(parseFloat(modelValues.param2));
+      (0.15 * parseFloat(modelValues.param3 / 1.609)) / 100 -
+      11.5 * Math.log(parseFloat(modelValues.param2  * 3.281));
     const l10 =
       44.8 +
       10.8 * Math.log(parseFloat(modelValues.param1)) +
-      (0.12 * parseFloat(modelValues.param3)) / 100 -
-      9.6 * Math.log(parseFloat(modelValues.param2));
+      (0.12 * parseFloat(modelValues.param3 / 1.609)) / 100 -
+      9.6 * Math.log(parseFloat(modelValues.param2  * 3.281));
     const l90 =
       39.1 +
       10.5 * Math.log(parseFloat(modelValues.param1)) +
-      (0.06 * parseFloat(modelValues.param3)) / 100 -
-      9.3 * Math.log(parseFloat(modelValues.param2));
+      (0.06 * parseFloat(modelValues.param3 / 1.609)) / 100 -
+      9.3 * Math.log(parseFloat(modelValues.param2  * 3.281));
       const leq = 
       parseFloat(l50) + 
       0.018 * ((parseFloat(l10) - 
@@ -100,7 +101,7 @@ export function calcGriffiths(modelValues) {
 export function calcFagotti(modelValues){
   if ((modelValues.param1) > 0 && (modelValues.param2) > 0 && (modelValues.param3) > 0 && (modelValues.param4) > 0) {
     return(
-      10 * Math.log(parseFloat(modelValues.param1) + parseFloat(modelValues.param3) + 8 * parseFloat(modelValues.param2) + 88 * parseFloat(modelValues.param4)) + 33.5 ).toFixed(2)
+      10 * Math.log(parseFloat(modelValues.param1) + parseFloat(modelValues.param3 / 1.609) + 8 * parseFloat(modelValues.param2  * 3.281) + 88 * parseFloat(modelValues.param4)) + 33.5 ).toFixed(2)
     } else {
       return "";
     }
