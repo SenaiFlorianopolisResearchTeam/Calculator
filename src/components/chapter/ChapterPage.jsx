@@ -1,5 +1,8 @@
+"use client";
 import React from 'react';
 import { useParams } from 'react-router-dom';
+import { caps } from "../../data/caps";
+import { ChapterData } from './ChapterData'
 
 const ChapterPage = () => {
   const { id } = useParams();
@@ -8,9 +11,7 @@ const ChapterPage = () => {
 
   if (!selectedChapter) {
     return <div>Capítulo não encontrado</div>;
-  }
-
-  return (
+  } else return (
     <div>
       <h2>{selectedChapter.title}</h2>
       <p>{selectedChapter.subtitle}</p>

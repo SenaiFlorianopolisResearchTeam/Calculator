@@ -10,7 +10,7 @@
     min-height: 100%;
     display: flex;
     justify-content: space-between;
-    color: #451892;
+    color: #45189200;
     font-family: 'Poppins';
     border-width: 1px;
     border-style: solid;
@@ -38,7 +38,6 @@
 }
 
 .item2 {
-
     width: 500px;
     min-height: 600px;
     padding: 50px;
@@ -51,8 +50,8 @@
     margin-bottom: 5px;
     font-size: 18px;
     font-weight: 400;
+    max-width: 400px;
     color: rgba(255, 255, 255, 0.5);
-    ;
 }
 
 .item2Text {
@@ -75,12 +74,12 @@
 }
 
 .inputSelect {
-    width: 400px;
+    width: 418px;
     height: 60px;
     border-radius: 8px;
     background-color: #34008C70;
     border-style: hidden;
-    padding-left: 16px;
+    padding: 16px;
     font-size: 20px;
     color: #CB88FF;
 }

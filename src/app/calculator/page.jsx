@@ -27,17 +27,17 @@ export default function Calculator() {
 
   const [selectedModel, setSelectedModel] = useState("hanc");
   const [modelValues, setModelValues] = useState({
-    param1: 0,
-    param2: 0,
-    param3: 0,
-    param4: 0,
+    param1: "",
+    param2: "",
+    param3: "",
+    param4: "",
   });
 
   const [result, setResult] = useState({
-    l10: 0,
-    l50: 0,
-    l90: 0,
-    leq: 0,
+    l10: "",
+    l50: "",
+    l90: "",
+    leq: "",
   });
 
   const handleModelChange = (event) => {
@@ -45,10 +45,10 @@ export default function Calculator() {
     setSelectedModel(selectedOption);
     // limpar os campos
     setModelValues({
-      param1: 0,
-      param2: 0,
-      param3: 0,
-      param4: 0,
+      param1: "",
+      param2: "",
+      param3: "",
+      param4: "",
     });
   };
 
@@ -234,7 +234,7 @@ export default function Calculator() {
                 (selectedModel === "griffiths") && (
                   <div>
                     <p className={styles.item1Text}>
-                      Porcentagem de veículos pesados em tráfego
+                      Porcentagem de veículos pesados em tráfego (%)
                     </p>
                     <input
                       type="number"
@@ -248,7 +248,7 @@ export default function Calculator() {
               {selectedModel === "johnson" ? (
                 <div>
                   <p className={styles.item1Text}>
-                    Velocidade mediana dos veículos
+                    Velocidade mediana dos veículos (km)
                   </p>
                   <input
                     type="number"
@@ -262,7 +262,7 @@ export default function Calculator() {
                 selectedModel === "galloway" && (
                   <div>
                     <p className={styles.item1Text}>
-                      Velocidade mediana dos veículos
+                      Velocidade mediana dos veículos (km)
                     </p>
                     <input
                       type="number"
@@ -449,7 +449,7 @@ export default function Calculator() {
                 (selectedModel === "griffiths") && (
                   <div>
                     <p className={styles.item1Text}>
-                      Porcentagem de veículos pesados em tráfego
+                      Porcentagem de veículos pesados em tráfego (%)
                     </p>
                     <input
                       type="number"
@@ -463,7 +463,7 @@ export default function Calculator() {
               {selectedModel === "johnson" ? (
                 <div>
                   <p className={styles.item1Text}>
-                    Velocidade mediana dos veículos
+                    Velocidade mediana dos veículos (km) 
                   </p>
                   <input
                     type="number"
@@ -477,7 +477,7 @@ export default function Calculator() {
                 selectedModel === "galloway" && (
                   <div>
                     <p className={styles.item1Text}>
-                      Velocidade mediana dos veículos
+                      Velocidade mediana dos veículos (km) 
                     </p>
                     <input
                       type="number"
