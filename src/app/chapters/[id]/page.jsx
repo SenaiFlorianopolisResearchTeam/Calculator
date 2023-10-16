@@ -16,7 +16,7 @@ const ChapterPage = ({ params }) => {
 
   return (
     <>
-      <div>{params.title}</div>
+      <div>{params.id}</div>
     </>
   );
 };
