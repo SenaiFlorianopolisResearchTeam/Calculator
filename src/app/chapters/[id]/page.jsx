@@ -1,4 +1,3 @@
-
 "use client"
 import React from "react";
 import { useRouter } from "next/navigation";
@@ -17,6 +16,7 @@ const ChapterPage = ({ params }) => {
 
   return (
     <>
+      <p>{params.title}</p>
     </>
   );
 };
