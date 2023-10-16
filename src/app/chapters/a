@@ -1,5 +1,0 @@
-<ChapterData
-      title={selectedChapter.title}
-      subtitle={selectedChapter.subtitle}
-      paragraphs={selectedChapter.paragraphs}
-    />
