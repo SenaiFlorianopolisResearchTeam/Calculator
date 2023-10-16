@@ -1,22 +1,28 @@
-"use client";
-import React from 'react';
-import { useParams } from 'react-router-dom';
+// ChapterPage.jsx
+
+import React from "react";
+import { useRouter } from "next/navigation";
 import { caps } from "../../data/caps";
-import { ChapterData } from './ChapterData'
+import ChapterData from "./ChapterData";
 
 const ChapterPage = () => {
-  const { id } = useParams();
+  const router = useRouter();
+  const { id } = router.query; // Obtém o ID do capítulo da URL
+
   // Encontre o capítulo com base no ID
-  const selectedChapter = caps.find((cap) => cap.id === parseInt(id, 10));
+  const selectedChapter = caps.find((item) => item.id === parseInt(id));
 
   if (!selectedChapter) {
-    return <div>Capítulo não encontrado</div>;
-  } else return (
-    <div>
-      <h2>{selectedChapter.title}</h2>
-      <p>{selectedChapter.subtitle}</p>
-      {/* Renderize o conteúdo do capítulo aqui */}
-    </div>
+    // Lide com o caso em que o capítulo não é encontrado
+    return <div>Capítulo não encontrado.</div>;
+  }
+
+  return (
+    <ChapterData
+      title={selectedChapter.title}
+      subtitle={selectedChapter.subtitle}
+      paragraphs={selectedChapter.paragraphs}
+    />
   );
 };
 

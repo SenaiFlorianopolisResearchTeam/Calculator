@@ -4,7 +4,6 @@ export const caps = [
     id: 1,
     title: "Capítulo 1",
     subtitle: "Som e Ruído",
-    url: "/cap1",
     paragraphs: [
       'Som e ruído são conceitos relacionados à acústica e descrevem as características do som, mas têm significados distintos.',
       'Som: O som é uma forma de energia que se propaga por meio de ondas mecânicas em um meio, geralmente o ar, mas também pode se propagar em outros meios como a água e os sólidos. Ele é causado pela vibração de objetos ou fontes sonoras, como instrumentos musicais, vozes humanas ou motores de automóveis.',
