@@ -58,7 +58,22 @@ export const caps = [
     id: 4,
     title: "Capítulo 4",
     subtitle: "Onda sonora Esférica",
-    
+    "paragraphs": [
+      "Uma onda sonora esférica é um tipo de onda sonora tridimensional que se propaga em todas as direções a partir de sua fonte, criando uma série de esferas concêntricas de compressões e rarefações no meio em que se move. Esse tipo de onda é uma representação mais precisa das ondas sonoras na realidade, ao contrário da onda sonora plana, que é uma simplificação teórica.",
+      "Aqui estão algumas características importantes das ondas sonoras esféricas:",
+      "Propagação Tridimensional: Uma onda sonora esférica se propaga em todas as direções a partir de sua fonte, criando uma frente de onda esférica em expansão. Isso significa que o som se move radialmente para fora da fonte em todas as direções, como as ondas que se formam quando você joga uma pedra em um lago.",
+      "Compressões e Rarefações: Assim como em outras ondas sonoras, as ondas esféricas consistem em regiões alternadas de compressões e rarefações. As compressões são áreas onde as partículas do meio estão mais próximas umas das outras, enquanto as rarefações são áreas onde as partículas estão mais afastadas.",
+      "Intensidade Decrescente: À medida que uma onda sonora esférica se afasta da fonte, a sua intensidade diminui. Isso ocorre porque a mesma quantidade de energia se espalha por uma área de superfície cada vez maior à medida que a onda se afasta, resultando em uma diminuição da amplitude da onda.",
+      "Diluição da Energia: Conforme a onda se propaga para distâncias maiores da fonte, a energia da onda se dilui em uma área cada vez maior, resultando em uma diminuição da pressão sonora e da intensidade do som.",
+      "Leis de Inverso do Quadrado: As ondas sonoras esféricas obedecem às leis do inverso do quadrado, o que significa que a intensidade do som é inversamente proporcional ao quadrado da distância da fonte. Isso é descrito pela equação matemática:",
+      "I = P / (4πr²)",
+      "Onde:",
+      "- I é a intensidade sonora.",
+      "- P é a potência sonora emitida pela fonte.",
+      "- r é a distância da fonte.",
+      "Reflexão e Refração: Assim como as ondas sonoras planas, as ondas sonoras esféricas também podem sofrer reflexão quando encontram superfícies refletoras e refração quando passam de um meio para outro.",
+      "As ondas sonoras esféricas são essenciais para a nossa compreensão do comportamento do som no ambiente. Elas são responsáveis pela propagação do som em todas as direções, permitindo que ouçamos fontes sonoras de diferentes direções e distâncias. Além disso, a modelagem de ondas sonoras esféricas é importante em várias aplicações, incluindo acústica arquitetônica, sonar e comunicação sonora subaquática."
+    ]  
   },
   {
     id: 5,
