@@ -1,4 +1,3 @@
-"use client";
 export const caps = [
   {
     id: 1,
