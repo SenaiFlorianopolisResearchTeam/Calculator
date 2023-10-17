@@ -36,3 +36,45 @@
     line-height: normal;
 
 }
+
+@media screen and (max-width: 800px) { 
+   
+.ChapterContainer {
+    display: flex;
+    font-size: 10px; 
+    flex-direction: column;
+}
+
+.ChapterContainer h2 {
+    color: #8665CD;
+    font-size: 0.5rem;
+    font-weight: bold;
+}
+
+.ChapterContainer p {
+    color: #ECECEC;
+    font-family: Arial;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.ChapterCard {
+    padding: 2rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #451892;
+    max-height: 100%;
+    background: linear-gradient(180deg, rgba(69, 24, 146, 0.44) 0%, rgba(41, 22, 98, 0.00) 100%);
+}
+
+.ChapterCard p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+ }
