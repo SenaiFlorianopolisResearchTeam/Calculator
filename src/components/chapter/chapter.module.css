@@ -42,7 +42,7 @@ margin-bottom: 1rem;
    
 .ChapterContainer {
     display: flex;
-    font-size: 20px; 
+    font-size: 30px; 
     flex-direction: column;
 }
 
