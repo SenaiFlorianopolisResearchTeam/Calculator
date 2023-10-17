@@ -8,7 +8,11 @@ const ChapterData = ({ title, subtitle, paragraphs }) => {
         <h2 className={styles.title}>{title}</h2>
         <p className={styles.subtitle}>{subtitle}</p>  
         <div  className={styles.ChapterCard}>
-        <p className={styles.text}>{paragraphs}</p>  
+        {paragraphs.map((paragraph, index) => (
+          <p key={index} className={styles.text}>
+            {paragraph}
+          </p>
+        ))}
         </div>
     </div>
   );

@@ -30,7 +30,7 @@
 
 .item1 {
     width: 500px;
-    min-height: 600px;
+    height: 100%;
     max-width: 100%;
     padding: 50px;
     margin-left: 69px;
@@ -40,6 +40,7 @@
 .item2 {
     width: 500px;
     min-height: 600px;
+    height: 100%;
     padding: 50px;
     margin-bottom: 59px;
     margin-right: 69px;
