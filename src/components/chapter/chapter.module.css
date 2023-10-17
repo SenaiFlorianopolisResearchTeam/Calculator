@@ -8,6 +8,7 @@
     color: #8665CD;
     font-size: 1.5rem;
     font-weight: bold;
+margin-bottom: 1rem;
 }
 
 .ChapterContainer p {
@@ -53,7 +54,7 @@
 
 .ChapterContainer p {
     color: #ECECEC;
-    font-family: Arial;
+    font-family: 'Poppins';
     font-size: 25px;
     font-style: normal;
     font-weight: 700;
@@ -66,7 +67,7 @@
     border-radius: 8px;
     border: 0px solid #451892;
     max-height: 100%;
-    background: linear-gradient(180deg, rgba(69, 24, 146, 0.44) 0%, rgba(41, 22, 98, 0.00) 100%);
+//    background: linear-gradient(180deg, rgba(69, 24, 146, 0.44) 0%, rgba(41, 22, 98, 0.00) 100%);
 }
 
 .ChapterCard p {
