@@ -150,11 +150,11 @@
 
     .inputSelect {
         height: 60px;
-        width: 100%;
+        max-width: 100%;
         border-radius: 8px;
         background-color: #34008C70;
         border-style: hidden;
-        padding-left: 16px;
+        padding-left: 5%;
         padding: 1rem;
         font-size: 15px;
         color: #CB88FF;
@@ -162,8 +162,6 @@
 
     .resultInputM {
         font-size: 15px;
-        margin-top: 38px;
-        margin-bottom: 38px;
     }
 
     .option {
@@ -184,13 +182,13 @@
     }
 
     .input {
-        width: 100%;
+        width: 95%;
         height: 40px;
         border-radius: 8px;
         background-color: #34008C70;
         border-style: hidden;
         font-size: 15px;
-        padding-left: 16px;
+        padding-left: 5%;
         color: #CB88FF;
     }
 }

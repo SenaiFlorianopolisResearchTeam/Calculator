@@ -71,11 +71,11 @@
         padding: 0rem 0rem;
         border-radius: 8px;
         border: 0px solid #451892;
-        max-width: 100%;
+        width: 100%;
         background: none;
+        max-height: 100%;
         overflow: auto;
         background: none
-
     }
 
     .ChapterCard p {
