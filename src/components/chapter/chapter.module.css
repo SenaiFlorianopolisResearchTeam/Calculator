@@ -67,7 +67,7 @@ margin-bottom: 1rem;
     border-radius: 8px;
     border: 0px solid #451892;
     max-height: 100%;
-//    background: linear-gradient(180deg, rgba(69, 24, 146, 0.44) 0%, rgba(41, 22, 98, 0.00) 100%);
+    background: none;
 }
 
 .ChapterCard p {
