@@ -51,6 +51,9 @@ margin-bottom: 1rem;
     font-size: 0.5rem;
     font-weight: bold;
 }
+.title{
+font-size: 30px
+}
 
 .ChapterContainer p {
     color: #ECECEC;
