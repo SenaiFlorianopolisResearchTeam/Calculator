@@ -12,7 +12,7 @@
 .text li{
     list-style-position: outside;
     max-width: 100%;
-    font-size: 1.5rem;
+    font-size: 20px;
 }
 .text p{
     font-size: 15px;
@@ -24,26 +24,75 @@
     color: #ffffffee;
     font-size: 72px;
     text-align: left;
-    margin-bottom: 1rem;
+    padding: 1rem 0rem 2.5rem 0rem;
 }
+.subtitle {
+    color: #ffffffee;
+    font-size: 45px;
+    text-align: left;
+    padding: 1rem 0rem;
+}
+
 .containerProject ol{
-    font-size: 1rem;
+    font-size: 30px;
 }
 .ourProject{
     display: flex;
     flex-direction: column;
+    width: 100%;
     gap: 1rem;
-    margin-top: 2em;
-    align-items: center;
+    align-items: start;
+    height: 10rem;
     justify-content: center;
 }
-.pdf{
-    background-color: #D8CBFF;
-    padding: 1rem;
-    border-radius: 5px;
+.moreInfo{
     display: flex;
-    width: 50%;
+    align-items: center;
+    justify-content: space-between;
 }
+.moreInfo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 17px;
+}
+.moreInfo a:hover{
+    color: #e9dfff;
+}
+
+.btnPDF{
+    background-color: #451892a9;
+    font-size: 17px;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+}
+.cardProject{
+    /* background: rgba(41, 22, 99, 0.801); */
+    border-width: 1px;
+    border-style: solid;
+    border-color: #451892;
+    background: linear-gradient(to bottom, rgba(69, 24, 146, 0.44), #120234);
+    padding: 4rem 6rem;
+}
+.titleProject{
+    font-size: 30px;
+    color: #8665CD;
+    font-weight: bold; 
+    text-align: left;
+}
+.textProject{
+    text-align: justify;
+    font-size: 20px;
+    padding: 3rem 0rem;
+}
+.textProject span{
+    font-weight: bold;
+}
+
 @media screen and (max-width: 800px) {
 
     .title {
