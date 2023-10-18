@@ -34,3 +34,5 @@ debug.log
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+debug.log
+.vscode
