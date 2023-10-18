@@ -64,7 +64,6 @@ const About = () => {
             </div>
             <Image src={Grupo} alt="grupo" className={styles.img} />
           </div>
-          <Project />
         </div>
       )}
 
@@ -107,6 +106,7 @@ const About = () => {
           </div>
         </>
       )}
+      <Project />
     </>
   )
 };

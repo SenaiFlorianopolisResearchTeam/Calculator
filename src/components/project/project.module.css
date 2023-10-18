@@ -1,0 +1,61 @@
+.containerProject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+    width: 100%;
+    font-family: 'Poppins';        
+    color: #D8CBFF;
+
+}
+.text li{
+    list-style-position: outside;
+    max-width: 100%;
+    font-size: 1.5rem;
+}
+.text p{
+    font-size: 15px;
+    color: #d8cbffc5;
+    margin-bottom: 2rem;
+}
+
+.title {
+    color: #ffffffee;
+    font-size: 72px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.containerProject ol{
+    font-size: 1rem;
+}
+.ourProject{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 2em;
+    align-items: center;
+    justify-content: center;
+}
+.pdf{
+    background-color: #D8CBFF;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    width: 50%;
+}
+@media screen and (max-width: 800px) {
+
+    .title {
+      font-size: 2rem;
+      text-align: left;
+      color: #ffffffb2;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+  
+    }
+    .text{
+        font-size: 20px;
+        font-weight: 100;
+    }
+  }

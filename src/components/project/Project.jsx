@@ -1,11 +1,12 @@
-import './project.module.css'
+import styles from './project.module.css'
 
 export default function Project() {
     return (
         <>
-            <div className='containerProject'>
-                <h1>Grupos</h1>
-                <ol>
+                <h1 className={styles.title}>Grupos</h1>
+            <div className={styles.containerProject}>
+                
+                <ol className={styles.text}>
                     <li>Desenvolvimento de uma plataforma calculadora para análise dos níveis de ruído rodoviário</li>
                     <p> (Ana Beatriz Martins, Yuri Castilho e Isadora Wenzel da Silveira)</p>
                     <li>Revolucionando o Controle do Ruído Rodoviário: Uma Abordagem Baseada em Inteligência Artificial</li>
@@ -18,10 +19,10 @@ export default function Project() {
                     <p>(Bibiana Engel Ribeiro, Carolina Vasco da Silva e Larissa Miranda Medeiros)</p>
                 </ol>
             </div>
-            <div className="ourProject">
                 <h2>Nosso Projeto:</h2>
+            <div className={styles.ourProject}>
                 <p>Desenvolvimento de uma plataforma calculadora para análise dos níveis de ruído rodoviário|</p>
-                <div className="pdf">
+                <div className={styles.pdf}>
                     <p>Leia nosso artigo científico</p>
                     <button>PDF</button>
                 </div>
