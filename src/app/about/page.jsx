@@ -6,6 +6,7 @@ import Grupo from "../../../public/group.png";
 import Imagem from "../../../public/lamp.svg";
 import Project from "@/components/project/Project";
 import useMediaQuery from '@mui/material/useMediaQuery'
+import Scroll from "@/components/scrollTop/scroll";
 
 const MediaQueryComponent = () => {
   const isDesktop = useMediaQuery('(min-width:800px)');
@@ -64,7 +65,9 @@ const About = () => {
             </div>
             <Image src={Grupo} alt="grupo" className={styles.img} />
           </div>
+          <Scroll />
         </div>
+
       )}
 
       {isMobile && (

@@ -6,7 +6,7 @@ export default function Project() {
             <h1 className={styles.title}>Grupos</h1>
             <div className={styles.containerProject}>
 
-                <ol className={styles.text}>
+                <ol className={styles.textGroups}>
                     <li>Desenvolvimento de uma plataforma calculadora para análise dos níveis de ruído rodoviário</li>
                     <p> (Ana Beatriz Martins, Yuri Castilho e Isadora Wenzel da Silveira)</p>
                     <li>Revolucionando o Controle do Ruído Rodoviário: Uma Abordagem Baseada em Inteligência Artificial</li>
@@ -28,9 +28,8 @@ export default function Project() {
                             <img src="./mdi_github.svg" />
                             Ver repositório</a>
                         <a className={styles.btnPDF}
-                        href='./ArtigoIC.pdf'
-                        download='Artigo.pdf'
-                        >
+                            href='./ArtigoIC.pdf'
+                            download='Artigo.pdf'>
                             <p id='btnTxt'>Baixar PDF</p></a>
                     </div>
                 </div>

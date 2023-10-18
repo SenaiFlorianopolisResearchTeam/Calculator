@@ -5,11 +5,11 @@
 -------------------------------
 ### Technologies
 
-- JavaScript, React, Vercel, Next.js, CSS
+- JavaScript, CSS, React, Vercel, Next.js
 
 #### License
 
-MIT license - Open-source code, free to use and contribute
+- MIT license - open-source code, free to use and contribute
 
 -------------------------------
 - Website:[ https://ic-website-2023.vercel.app/](https://ic-website-2023.vercel.app/)
