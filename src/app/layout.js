@@ -15,13 +15,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
       <body className={inter.className}>
-        <img src='./elipse.svg' className="elipse"></img>
         <div className="container">
-        <img src='./elipse.svg' className="elipse"></img>
           <Navbar />
           {children}
           <Footer />
         </div>
+        {/* <img src='./elipse.svg' className="elipse1"></img> */}
+        {/* <img src='./elipse.svg' className="elipse2"></img> */}
       </body>
     </html>
   )
